@@ -99,7 +99,6 @@
        (memory-report-interval 5)
        (prefer-regexp "(^|/)(surf|chromium|icecat)$") ; 优先杀死的进程
        (avoid-regexp "(^|/)(sshd|shepherd|mcron|Xorg|dwm|fcitx)$"))) ; 白名单，无论如何都不杀死
-     (service zram-device-service-type) ; 压缩的内存交换空间，减少磁盘读写
      (service openssh-service-type
       (openssh-configuration
        (extra-content
