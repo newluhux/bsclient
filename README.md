@@ -19,9 +19,6 @@ fat.scm  为完整解决方案，暂时不开发
 
 ```
 git clone https://github.com/newluhux/bsclient.git
-cd bsclient/module/packages/src
-git clone https://github.com/newluhux/dwm-modify.git
-git clone https://github.com/newluhux/surf-modify.git
 ```
 
 #### 准备环境
