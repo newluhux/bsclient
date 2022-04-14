@@ -13,7 +13,7 @@
    (inherit dwm)
    (name "dwm-modify")
    (source
-    (local-file "src/dwm-modify"
+    (local-file "src/dwm"
      #:recursive? #t))))
 
 (define-public surf-modify
@@ -22,7 +22,5 @@
   (name "surf-modify")
   (source
    (local-file 
-    "src/surf-modify"
+    "src/surf"
     #:recursive? #t))))
-
-surf-modify
