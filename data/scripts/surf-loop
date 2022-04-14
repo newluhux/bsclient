@@ -1,0 +1,7 @@
+#!/bin/sh
+
+URL="file:///srv/html/index.html"
+while true
+do
+	surf $URL
+done
