@@ -23,7 +23,7 @@ xsetroot -solid black
 # 中心控制的话请在远端302跳转或其他技术跳转
 # URL=http://xxxxx/forward/
 
-URL=file://$POS/index.html
+URL=file://$POS/html/index.html
 
 # 浏览器
 

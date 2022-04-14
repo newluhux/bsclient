@@ -82,6 +82,8 @@
        "xset" "xsetroot" "xclip" "xdotool" "scrot" "xkbset" ; 图形界面工具
        "fcitx" "dbus" ; 输入法
        "font-gnu-unifont" "fontconfig" ; 字体
+       "icecat" "ungoogled-chromium" ; 备用标准浏览器
+       "mpv" ; 视频播放器
        "wol" ; 网络唤醒工具
        "strace" "tcpdump" ; 调试工具
        ))))

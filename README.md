@@ -17,7 +17,6 @@ thin.scm 为精简解决方案，面对磁盘和内存资源紧张的机器
 最低要求:
 
 ```
-处理器: 686 以上
 运行内存: 512MB 以上
 磁盘: 4GB 以上
 ```
@@ -46,21 +45,21 @@ git clone https://github.com/newluhux/bsclient.git
 
 ```
 # thin
-guix system build --system=i686-linux thin.scm
+guix system build --system=x86_64-linux thin.scm
 ```
 
 ### 测试
 
 ```
 # thin
-guix system vm --system=i686-linux thin.scm 
+guix system vm --system=x86_64-linux thin.scm 
 ```
 
 ### 生成镜像
 
 ```
 # thin iso
-guix system image -t iso9660 --system=i686-linux thin.scm 
+guix system image -t iso9660 --system=x86_64-linux thin.scm 
 ```
 
 
