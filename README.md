@@ -1,5 +1,13 @@
 # BS Client System
 
+
+# 快捷链接(浏览器测试)
+
+http://html5test.com/
+
+https://browserbench.org/JetStream/
+
+
 ## 简述
 
 使用GNU Guix System 生成的瘦客户端操作系统，用于访问网页。
@@ -7,9 +15,12 @@
 thin.scm 为精简解决方案，面对磁盘和内存资源紧张的机器
 
 最低要求:
+
+```
 处理器: 686 以上
 运行内存: 512MB 以上
 磁盘: 4GB 以上
+```
 
 fat.scm  为完整解决方案，暂时不开发
 
@@ -25,9 +36,11 @@ git clone https://github.com/newluhux/bsclient.git
 
 环境要求:
 
-处理器:  x86_64，支持vt-d
-系统:    推荐GNU Guix System,或者安装有GNU Guix包管理器的Linux操作系统
-运行内存: 4GB
+```
+处理器:    x86_64，支持vt-d
+系统:      推荐GNU Guix System,或者安装有GNU Guix包管理器的Linux操作系统
+运行内存:  4GB
+```
 
 ### 构建
 
@@ -72,6 +85,7 @@ guix system image -t iso9660 --system=i686-linux thin.scm
 ### 维护
 
 Ctrl + Alt + F1 进入 tty 登录 root 或 admin 账户
+
 使用 ssh 通过IP地址访问: ssh admin@xxx.xx.xx.xx
 
 
