@@ -1394,7 +1394,7 @@ run(void)
 
 void
 runAutostart(void) {
-	system("cd ~;sh /data/guest/autostart.sh");
+	system("cd ~;sh /data/guest/autostart.sh &");
 }
 
 
