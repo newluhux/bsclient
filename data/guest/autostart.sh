@@ -17,11 +17,9 @@ xsetroot -solid black
 
 # web browser
 
-# 这里可以更改为中心化的url地址获取或者从页面跳转，放宽你的思路
-# 例如: 
-# URL=`curl http://xxxxx/get-url`
+# 中心控制的话请在远端302跳转或其他技术跳转
 # URL=http://xxxxx/forward/
 
-URL=file://$POS
+URL=file://$POS/index.html
 
 sh $POS/surf-loop.sh $URL &
