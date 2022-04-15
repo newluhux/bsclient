@@ -3,9 +3,13 @@
 
 # 快捷链接(浏览器测试)
 
-http://html5test.com/
+https://html5test.com/
 
 https://browserbench.org/JetStream/
+
+https://www.baidu.com/
+
+https://www.bing.com/
 
 
 ## 简述
