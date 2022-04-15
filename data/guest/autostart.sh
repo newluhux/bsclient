@@ -2,15 +2,18 @@
 
 POS=$(dirname $(realpath $0))
 
+# 环境变量
+export LANG=zh_CN.utf8
+export LC_ALL=zh_CN.utf8
+
 # no blank screen
 xset s noblank
 xset -dpms
 
 # Input Method
-# 为了兼容，不使用gtk_im_module和qt_im_module
 export XMODIFIERS=@im=fcitx
-export GTK_IM_MODULE=xim
-export QT_IM_MODULE=xim
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
 fcitx-autostart
 
 # background
