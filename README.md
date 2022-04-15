@@ -92,3 +92,7 @@ Ctrl + Alt + F1 进入 tty 登录 root 或 admin 账户
 使用 ssh 通过IP地址访问: ssh admin@xxx.xx.xx.xx
 
 
+# 参考
+
+https://guix.gnu.org/zh-CN/manual/devel/en/html_node/Invoking-guix-time_002dmachine.html#Invoking-guix-time_002dmachine
+https://guix.gnu.org/zh-CN/manual/devel/en/html_node/Invoking-guix-system.html
