@@ -30,12 +30,19 @@ URL=file://$POS/html/index.html
 
 # 浏览器
 
-WEB_BROWSER_CMD="surf"
+WEB_BROWSER_CMD0="surf"
+WEB_BROWSER_CMD1="chromium"
 
 # 浏览器循环
 while true
 do
-	$WEB_BROWSER_CMD $URL
+	$WEB_BROWSER_CMD0 $URL
+	if [ $? == 0 ]
+	then
+		continue
+	else
+		$WEB_BROWSER_CMD1 $URL
+	fi
 done &
 
 
