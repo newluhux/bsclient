@@ -80,8 +80,17 @@
        "nss-certs" ; 默认TLS证书
        "busybox" ; 系统管理工具集
        "xset" "xsetroot" "xclip" "xdotool" "scrot" "xkbset" ; 图形界面工具
-       "fcitx" "dbus" ; 输入法
+       "fcitx" "fcitx-configtool" "dbus" ; 输入法
        "font-gnu-unifont" "fontconfig" ; 字体
+       ;; 视频支持
+       "gstreamer" "gst-plugins-good"
+       "gst-plugins-base" "gst-plugins-ugly"
+       "gst-plugins-bad" "gst-libav"
+       "ffmpeg" "libva"
+
+       ;; 图形加速
+       "intel-vaapi-driver" "libvdpau-va-gl" "libvdpau"
+
        "icecat" "ungoogled-chromium" ; 备用标准浏览器
        "mpv" ; 视频播放器
        "wol" ; 网络唤醒工具
