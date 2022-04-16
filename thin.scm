@@ -79,6 +79,7 @@
       (list
        "nss-certs" ; 默认TLS证书
        "busybox" ; 系统管理工具集
+       "kmod" ; 内核模块工具
        "xset" "xsetroot" "xclip" "xdotool" "scrot" "xkbset" ; 图形界面工具
        "fcitx" "fcitx-configtool" "dbus" ; 输入法
        "font-gnu-unifont" "fontconfig" ; 字体
